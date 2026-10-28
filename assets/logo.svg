@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Effixam Pro</title>
+  <rect x="32" y="32" width="448" height="448" rx="104" fill="#1e3a8a"/>
+  <rect x="148" y="124" width="60" height="264" rx="14" fill="#ffffff"/>
+  <rect x="148" y="124" width="216" height="58" rx="14" fill="#ffffff"/>
+  <rect x="148" y="330" width="216" height="58" rx="14" fill="#ffffff"/>
+  <path d="M232 262 L268 298 L356 210" fill="none" stroke="#fbbf24" stroke-width="40"
+        stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

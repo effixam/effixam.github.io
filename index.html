@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download Effixam Pro</title>
+<meta name="description" content="Effixam Pro manages a secondary school's examinations, marks, result sheets and report cards on the school's own computer, without the internet.">
+<link rel="icon" type="image/svg+xml" href="assets/logo.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<meta property="og:title" content="Download Effixam Pro">
+<meta property="og:description" content="Examinations, marks and report cards on the school's own computer, without the internet.">
+<meta property="og:image" content="assets/logo-512.png">
+<style>
+  :root {
+    --brand: #1e3a8a;
+    --brand-strong: #172c6b;
+    --accent: #fbbf24;
+    --bg: #f4f6f8;
+    --surface: #ffffff;
+    --border: #d7dce1;
+    --text: #1f2933;
+    --muted: #52606d;
+    --on-brand: #ffffff;
+    --link: #1e40af;
+    --code-bg: #e8ecf2;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --brand: #3b5bcc;
+      --brand-strong: #4d6be0;
+      --bg: #12161c;
+      --surface: #1b2129;
+      --border: #2f3843;
+      --text: #e6eaef;
+      --muted: #a3afbd;
+      --link: #93b4ff;
+      --code-bg: #262e38;
+    }
+  }
+  :root[data-theme="dark"] {
+    --brand: #3b5bcc;
+    --brand-strong: #4d6be0;
+    --bg: #12161c;
+    --surface: #1b2129;
+    --border: #2f3843;
+    --text: #e6eaef;
+    --muted: #a3afbd;
+    --link: #93b4ff;
+    --code-bg: #262e38;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.6 "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  }
+  a { color: var(--link); }
+  .wrap { max-width: 860px; margin: 0 auto; padding: 0 16px; }
+
+  header.hero {
+    background: #1e3a8a;
+    color: #ffffff;
+    padding: 40px 0 48px;
+  }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .brand img { width: 56px; height: 56px; }
+  .brand h1 { margin: 0; font-size: 1.9rem; line-height: 1.2; }
+  .brand p { margin: 2px 0 0; color: #c7d2fe; font-size: 0.95rem; }
+  .tagline { font-size: 1.2rem; max-width: 36em; margin: 24px 0 28px; }
+
+  .download {
+    display: inline-flex; flex-direction: column; gap: 2px;
+    background: var(--accent); color: #1f2933;
+    text-decoration: none; font-weight: 700;
+    padding: 14px 24px; border-radius: 10px;
+    font-size: 1.15rem;
+  }
+  .download:hover, .download:focus-visible { background: #fcd34d; }
+  .download:focus-visible { outline: 3px solid #ffffff; outline-offset: 3px; }
+  .download small { font-weight: 400; font-size: 0.9rem; }
+  .hero .meta { margin: 14px 0 0; color: #c7d2fe; font-size: 0.95rem; }
+
+  main { padding: 32px 0 16px; }
+  section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px 24px;
+    margin-bottom: 20px;
+  }
+  h2 { margin: 0 0 10px; font-size: 1.3rem; }
+  ul, ol { padding-left: 1.3em; margin: 8px 0; }
+  li { margin: 4px 0; }
+  .note {
+    border-left: 4px solid var(--accent);
+    background: var(--code-bg);
+    padding: 10px 14px; border-radius: 6px; margin: 12px 0 0;
+  }
+  code {
+    background: var(--code-bg); padding: 1px 6px; border-radius: 4px;
+    font-family: Consolas, "Cascadia Mono", monospace; font-size: 0.9em;
+    overflow-wrap: anywhere;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+  th, td { text-align: left; padding: 8px 6px; border-top: 1px solid var(--border); vertical-align: top; }
+  th { width: 34%; font-weight: 600; }
+  .muted { color: var(--muted); }
+
+  footer { padding: 8px 0 40px; color: var(--muted); font-size: 0.9rem; }
+
+  @media (max-width: 560px) {
+    .brand h1 { font-size: 1.5rem; }
+    .tagline { font-size: 1.05rem; }
+    .download { display: flex; text-align: center; }
+    section { padding: 16px; }
+    th, td { display: block; width: 100%; padding: 4px 0; }
+    td { border-top: 0; padding-bottom: 10px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="brand">
+      <img src="assets/logo.svg" alt="" width="56" height="56">
+      <div>
+        <h1>Effixam Pro</h1>
+        <p>by Ruach Innovations</p>
+      </div>
+    </div>
+    <p class="tagline">Examinations, marks, result sheets and report cards for secondary
+      schools, on the school's own computer, without the internet.</p>
+    <a class="download" href="https://github.com/Alinanuswe/effixam-pro-download/releases/download/v2026.11.0/EffixamPro-2026.11.0.zip">
+      Download Effixam Pro 2026.11.0
+      <small>ZIP file, 40 MB: the setup program and the user manual</small>
+    </a>
+    <p class="meta">For Windows 10 and Windows 11 (64-bit). Released 1 November 2026.</p>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section>
+    <h2>What you need</h2>
+    <ul>
+      <li>A computer with <strong>Windows 10 or Windows 11</strong> (64-bit), a screen of at
+        least 1366 &times; 768, and about 300 MB of free disk space.</li>
+      <li>The school's <strong>licence file</strong> (it ends in <code>.efxl</code>) and the
+        <strong>activation PIN</strong>, both from Effixam Pro. The PIN is given only to the
+        Examination Officer named in the licence, and never sent with the licence file.</li>
+    </ul>
+    <p class="note">No licence yet? Contact Effixam Pro on
+      <a href="https://wa.me/265882198202">WhatsApp: +265 882 198 202</a>.</p>
+  </section>
+
+  <section>
+    <h2>Installing</h2>
+    <ol>
+      <li>Download the ZIP file above.</li>
+      <li>Right-click the downloaded file, choose <strong>Properties</strong>, tick
+        <strong>Unblock</strong> and press <strong>OK</strong>. This stops Windows warning
+        about the setup program later.</li>
+      <li>Right-click the file again and choose <strong>Extract All...</strong>. Open the
+        folder it makes.</li>
+      <li>Read <strong>Effixam Pro User Manual.pdf</strong>, chapter 2, "Installing and
+        activating", then double-click <strong>EffixamPro-Setup-2026.11.0.exe</strong> and
+        follow it.</li>
+    </ol>
+    <p class="note">If Windows shows <strong>Windows protected your PC</strong>, choose
+      <strong>More info</strong>, then <strong>Run anyway</strong>.</p>
+  </section>
+
+  <section>
+    <h2>What Effixam Pro does</h2>
+    <ul>
+      <li><strong>Setting up the school:</strong> staff, classes and subjects, teachers, and
+        students, one at a time or many at once from the school's Excel list.</li>
+      <li><strong>Exams the Ministry's way:</strong> End of Term exams, with Mid Term exams and
+        tests as continuous assessment. MANEB JCE grading for Forms 1&ndash;2 and MSCE grading
+        for Forms 3&ndash;4.</li>
+      <li><strong>Entering marks three ways:</strong> on the computer, on Excel mark sheets, or
+        from phones over the school's own Wi-Fi or hotspot.</li>
+      <li><strong>Results:</strong> Result Sheets for every class and Form, with positions and
+        grades, and the Excel templates that Cluster, District and Division offices send.</li>
+      <li><strong>Term report cards:</strong> remarks from the Form Teacher and the Head
+        Teacher, approved by the Head Teacher, then printed.</li>
+      <li><strong>Safe and private:</strong> each person sees only what their role allows,
+        important actions are recorded, backups are protected with a password, and nothing is
+        sent over the internet.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Already using Effixam Pro?</h2>
+    <p>You don't need this download. Updates come from Effixam Pro as one file ending in
+      <code>.efxu</code>; the Examination Officer installs it with
+      <strong>Help &gt; Install update...</strong>. Your school's data stays as it is.</p>
+  </section>
+
+  <section>
+    <h2>Checking the download</h2>
+    <p class="muted">Optional. To be sure the file is the real one and arrived complete, open
+      PowerShell in the folder with the file and run
+      <code>Get-FileHash EffixamPro-2026.11.0.zip</code>. The result must match:</p>
+    <table>
+      <tr><th>EffixamPro-2026.11.0.zip<br><span class="muted">41,686,317 bytes</span></th>
+        <td><code>8fddb289382c49ff71135372d056315ee8fc6b615243dafa3d3007fe04640981</code></td></tr>
+      <tr><th>EffixamPro-Setup-2026.11.0.exe<br><span class="muted">inside the ZIP, 37,375,152 bytes</span></th>
+        <td><code>a14d1e3f1b65600d2fb4a21324366943b89b13af04dc9c0c6af5b62263a1cd71</code></td></tr>
+    </table>
+  </section>
+
+  <section>
+    <h2>Help</h2>
+    <p>Contact Effixam Pro support on
+      <a href="https://wa.me/265882198202">WhatsApp: +265 882 198 202</a>. Have your school's
+      name and ID ready, and the version of Effixam Pro (Help &gt; About).</p>
+  </section>
+
+</main>
+
+<footer class="wrap">
+  &copy; 2026 Ruach Innovations. Effixam Pro is a product of Ruach Innovations.
+</footer>
+
+</body>
+</html>
