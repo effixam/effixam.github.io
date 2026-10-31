@@ -82,6 +82,19 @@
   .download small { font-weight: 400; font-size: 0.9rem; }
   .hero .meta { margin: 14px 0 0; color: #c7d2fe; font-size: 0.95rem; }
 
+  .try { margin: 20px 0 0; padding-top: 16px; border-top: 1px solid var(--border); }
+  .try h3 { margin: 0 0 6px; font-size: 1.05rem; }
+  .try p { margin: 0 0 14px; }
+  .download-demo {
+    display: inline-flex; flex-direction: column; gap: 2px;
+    border: 2px solid var(--link); color: var(--link);
+    text-decoration: none; font-weight: 700;
+    padding: 10px 20px; border-radius: 10px;
+  }
+  .download-demo:hover, .download-demo:focus-visible { background: var(--code-bg); }
+  .download-demo:focus-visible { outline: 3px solid var(--link); outline-offset: 3px; }
+  .download-demo small { font-weight: 400; font-size: 0.9rem; color: var(--text); }
+
   main { padding: 32px 0 16px; }
   section {
     background: var(--surface);
@@ -113,7 +126,7 @@
   @media (max-width: 560px) {
     .brand h1 { font-size: 1.5rem; }
     .tagline { font-size: 1.05rem; }
-    .download { display: flex; text-align: center; }
+    .download, .download-demo { display: flex; text-align: center; }
     section { padding: 16px; }
     th, td { display: block; width: 100%; padding: 4px 0; }
     td { border-top: 0; padding-bottom: 10px; }
@@ -166,15 +179,22 @@
       <li>A computer with <strong>Windows 10 or Windows 11</strong> (64-bit), a screen of at
         least 1366 &times; 768, and about 300 MB of free disk space.</li>
       <li>The school's <strong>licence file</strong> (it ends in <code>.efxl</code>) and the
-        <strong>activation PIN</strong>, both from Effixam Pro. The PIN is given only to the
-        Examination Officer named in the licence, and never sent with the licence file.</li>
+        <strong>activation PIN</strong>, both from Effixam Pro. For a school's own licence, the
+        PIN is given only to the Examination Officer named in the licence, and never sent with
+        the licence file.</li>
     </ul>
     <p class="note">No licence yet? Contact Effixam Pro on
       <a href="https://wa.me/265882198202">WhatsApp: +265 882 198 202</a>.</p>
-      <a class="download" href="https://github.com/effixam/effixam.github.io/releases/download/v2026.11.0.1/EffixamPro-2027.11.0-demo.zip">
-        OR Download Effixam Pro Demo License
-        <small>Do not use your school's real data with this license. Its strctly for training and exploration purposes.</small>
+    <div class="try">
+      <h3>Just want to try it?</h3>
+      <p>Install Effixam Pro first, using the download at the top of this page. Then download
+        the demo licence below. Its ZIP file holds a licence file and a letter with the PIN. In
+        Effixam Pro, choose the licence file and type the PIN when asked.</p>
+      <a class="download-demo" href="downloads/EffixamPro-2026.11.0-demo.zip">
+        Download the demo licence
+        <small>For training and trying out only. Do not use your school's real data with this licence.</small>
       </a>
+    </div>
   </section>
 
   <section>
